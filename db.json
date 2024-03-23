@@ -1,0 +1,13 @@
+{
+  "funds": [
+    {
+      "id": 1,
+      "code": "FUND1",
+      "name": "Name 1",
+      "currentPrice": 1000,
+      "lowestPrice": 900,
+      "highestPrice": 1500,
+      "minimumSubValue": 10000
+    }
+  ]
+}
