@@ -7,7 +7,9 @@
       "currentPrice": 1000,
       "lowestPrice": 900,
       "highestPrice": 1500,
-      "minimumSubValue": 10000
+      "minimumSubValue": 10000,
+      "navPercent": 1.2,
+      "date": 1711167159
     },
     {
       "id": 2,
@@ -16,7 +18,9 @@
       "currentPrice": 2000,
       "lowestPrice": 100,
       "highestPrice": 2500,
-      "minimumSubValue": 10000
+      "minimumSubValue": 10000,
+      "navPercent": 1.3,
+      "date": 1711167159
     },
     {
       "id": 2,
@@ -25,7 +29,9 @@
       "currentPrice": 3000,
       "lowestPrice": 2200,
       "highestPrice": 2500,
-      "minimumSubValue": 10000
+      "minimumSubValue": 10000,
+      "navPercent": 1.4
+      "date": 1711167159
     }
   ]
 }
