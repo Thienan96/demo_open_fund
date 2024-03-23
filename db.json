@@ -8,6 +8,24 @@
       "lowestPrice": 900,
       "highestPrice": 1500,
       "minimumSubValue": 10000
+    },
+    {
+      "id": 1,
+      "code": "FUND2",
+      "name": "Name 2",
+      "currentPrice": 2000,
+      "lowestPrice": 100,
+      "highestPrice": 2500,
+      "minimumSubValue": 10000
+    },
+    {
+      "id": 1,
+      "code": "FUND3",
+      "name": "Name 3",
+      "currentPrice": 3000,
+      "lowestPrice": 2200,
+      "highestPrice": 2500,
+      "minimumSubValue": 10000
     }
   ]
 }
