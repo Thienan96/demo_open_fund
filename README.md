@@ -7,6 +7,8 @@ Simple application to view funds with some use cases such as:
    . Bar chart: View volume by time
 3. View comments and allow reaction for comment which you like
 
-Total time spended: 4hours (requirements analysis + coding) 
+Total time spended: 4hours (requirements analysis + coding + deployment) 
 
 Application using Angular 17 and fake api support by https://jsonplaceholder.typicode.com/
+
+Visit:  https://demofund-dcf2d.web.app
