@@ -184,35 +184,6 @@
             "navDate": "2024-03-19",
             "productId": 1
         }
-      ],
-    "nav3": [
-              {
-            "id": 438,
-            "createdAt": 1705461637217,
-            "nav": 14145.05,
-            "navDate": "2024-01-16",
-            "productId": 1
-        },
-        {
-            "id": 440,
-            "createdAt": 1706063886282,
-            "nav": 14489.91,
-            "navDate": "2024-01-23",
-            "productId": 1
-        },
-        {
-            "id": 452,
-            "createdAt": 1710296546226,
-            "nav": 15412.71,
-            "navDate": "2024-03-12",
-            "productId": 1
-        },
-        {
-            "id": 454,
-            "createdAt": 1710900516976,
-            "nav": 15618.28,
-            "navDate": "2024-03-19",
-            "productId": 1
-        }
+      ]
     ]
 }
