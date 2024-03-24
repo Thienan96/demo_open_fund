@@ -1,0 +1,282 @@
+{
+  "funds": [
+    {
+      "id": 1,
+      "code": "FUND1",
+      "name": "Name 1",
+      "currentPrice": 1000,
+      "lowestPrice": 900,
+      "highestPrice": 1500,
+      "minimumSubValue": 10000,
+      "navPercent": 1,
+      "date": 1711167159
+    },
+    {
+      "id": 2,
+      "code": "FUND2",
+      "name": "Name 2",
+      "currentPrice": 2000,
+      "lowestPrice": 100,
+      "highestPrice": 2500,
+      "minimumSubValue": 10000,
+      "navPercent": 2,
+      "date": 1711167159
+    },
+    {
+      "id": 3,
+      "code": "FUND3",
+      "name": "Name 3",
+      "currentPrice": 3000,
+      "lowestPrice": 2200,
+      "highestPrice": 2500,
+      "minimumSubValue": 10000,
+      "navPercent": 3,
+      "date": 1711167159
+    }
+  ],
+  "nav12": [
+        {
+            "id": 400,
+            "createdAt": 1693968109518,
+            "nav": 14547.33,
+            "navDate": "2023-09-05",
+            "productId": 1
+        },
+        {
+            "id": 402,
+            "createdAt": 1694572704662,
+            "nav": 14664.51,
+            "navDate": "2023-09-12",
+            "productId": 1
+        },
+        {
+            "id": 430,
+            "createdAt": 1703044597021,
+            "nav": 13461.22,
+            "navDate": "2023-12-19",
+            "productId": 1
+        },
+        {
+            "id": 432,
+            "createdAt": 1703644168013,
+            "nav": 13747.21,
+            "navDate": "2023-12-26",
+            "productId": 1
+        },
+        {
+            "id": 434,
+            "createdAt": 1704249214552,
+            "nav": 13890.48,
+            "navDate": "2024-01-02",
+            "productId": 1
+        },
+        {
+            "id": 436,
+            "createdAt": 1704855156513,
+            "nav": 14280.92,
+            "navDate": "2024-01-09",
+            "productId": 1
+        },
+        {
+            "id": 438,
+            "createdAt": 1705461637217,
+            "nav": 14145.05,
+            "navDate": "2024-01-16",
+            "productId": 1
+        },
+        {
+            "id": 440,
+            "createdAt": 1706063886282,
+            "nav": 14489.91,
+            "navDate": "2024-01-23",
+            "productId": 1
+        },
+        {
+            "id": 442,
+            "createdAt": 1706670079015,
+            "nav": 14452.39,
+            "navDate": "2024-01-30",
+            "productId": 1
+        },
+        {
+            "id": 444,
+            "createdAt": 1707273384394,
+            "nav": 14783.36,
+            "navDate": "2024-02-06",
+            "productId": 1
+        },
+        {
+            "id": 452,
+            "createdAt": 1710296546226,
+            "nav": 15412.71,
+            "navDate": "2024-03-12",
+            "productId": 1
+        },
+        {
+            "id": 454,
+            "createdAt": 1710900516976,
+            "nav": 15618.28,
+            "navDate": "2024-03-19",
+            "productId": 1
+        }
+  ],
+  "nav6": [
+            {
+            "id": 420,
+            "createdAt": 1700017106679,
+            "nav": 13624.87,
+            "navDate": "2023-11-14",
+            "productId": 1
+        },
+        {
+            "id": 434,
+            "createdAt": 1704249214552,
+            "nav": 13890.48,
+            "navDate": "2024-01-02",
+            "productId": 1
+        },
+        {
+            "id": 436,
+            "createdAt": 1704855156513,
+            "nav": 14280.92,
+            "navDate": "2024-01-09",
+            "productId": 1
+        },
+        {
+            "id": 438,
+            "createdAt": 1705461637217,
+            "nav": 14145.05,
+            "navDate": "2024-01-16",
+            "productId": 1
+        },
+        {
+            "id": 440,
+            "createdAt": 1706063886282,
+            "nav": 14489.91,
+            "navDate": "2024-01-23",
+            "productId": 1
+        },
+        {
+            "id": 448,
+            "createdAt": 1709087407155,
+            "nav": 15095.42,
+            "navDate": "2024-02-27",
+            "productId": 1
+        },
+        {
+            "id": 450,
+            "createdAt": 1709691547487,
+            "nav": 15719.3,
+            "navDate": "2024-03-05",
+            "productId": 1
+        },
+        {
+            "id": 452,
+            "createdAt": 1710296546226,
+            "nav": 15412.71,
+            "navDate": "2024-03-12",
+            "productId": 1
+        },
+        {
+            "id": 454,
+            "createdAt": 1710900516976,
+            "nav": 15618.28,
+            "navDate": "2024-03-19",
+            "productId": 1
+        }
+      ],
+   "volume12": [
+        {
+            "buy": 467,
+            "sell": 542,
+            "date": "2023-09-05"
+        },
+        {
+            "buy": 576,
+            "sell": 542,
+            "date": "2023-09-12"
+        },
+        {
+            "buy": 572,
+            "sell": 536,
+            "date": "2023-12-19"
+        },
+        {
+            "buy": 79,
+            "sell": 327,
+            "date": "2023-12-26"
+        },
+        {
+            "buy": 79,
+            "sell": 327,
+            "date": "2024-01-02"
+        },
+        {
+            "buy": 573,
+            "sell": 538,
+            "date": "2024-01-09"
+        },
+        {
+            "buy": 576,
+            "sell": 541,
+            "date": "2024-01-16"
+        },
+        {
+            "buy": 576,
+            "sell": 541,
+            "date": "2024-01-23"
+        },
+        {
+             "buy": 576,
+            "sell": 541,
+            "date": "2024-01-30"
+        },
+        {
+           "buy": 576,
+            "sell": 541,
+            "date": "2024-02-06"
+        },
+        {
+            "buy": 576,
+            "sell": 541,
+            "date": "2024-03-12"
+        },
+        {
+           "buy": 576,
+            "sell": 541,
+            "date": "2024-03-19"
+        }
+  ],
+   "volume6": [
+        {
+            "buy": 467,
+            "sell": 542,
+            "date": "2023-09-05"
+        },
+        {
+            "buy": 576,
+            "sell": 542,
+            "date": "2023-09-12"
+        },
+        {
+             "buy": 576,
+            "sell": 541,
+            "date": "2024-01-30"
+        },
+        {
+           "buy": 576,
+            "sell": 541,
+            "date": "2024-02-06"
+        },
+        {
+            "buy": 576,
+            "sell": 541,
+            "date": "2024-03-12"
+        },
+        {
+           "buy": 576,
+            "sell": 541,
+            "date": "2024-03-19"
+        }
+  ]
+}
