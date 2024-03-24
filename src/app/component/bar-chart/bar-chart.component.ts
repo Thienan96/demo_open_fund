@@ -41,8 +41,6 @@ export class BarChartComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.fundStore.loadVolume$(12);
-
     this.fundStore.volume$.subscribe((r) => {
       const labels = r.map((rr) => rr.date);
       const buy = r.map((rr) => `${rr.buy}`);

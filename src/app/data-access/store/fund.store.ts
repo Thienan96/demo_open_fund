@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { ComponentStore } from "@ngrx/component-store";
-import { filter, map, Observable, switchMap, tap } from "rxjs";
+import { filter, map, Observable, switchMap, take, tap } from "rxjs";
 import { Comment, Fund, NAV, Volume } from "../model/model";
 import { FundService } from "../service/fund.service";
 
@@ -39,10 +39,10 @@ export class FundStore extends ComponentStore<FundState> {
       volume,
     };
   });
-  readonly setComment = this.updater((state, comment: Comment[]) => {
+  readonly setComment = this.updater((state, comments: Comment[]) => {
     return {
       ...state,
-      comment,
+      comments,
     };
   });
   readonly detail$ = this.select((s) => s.detail).pipe(
@@ -108,6 +108,7 @@ export class FundStore extends ComponentStore<FundState> {
     params$.pipe(
       switchMap((id) => {
         return this.comments$.pipe(
+          take(1),
           map((comments) => {
             return { comments, id };
           })
