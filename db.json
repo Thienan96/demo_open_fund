@@ -278,25 +278,5 @@
             "sell": 541,
             "date": "2024-03-19"
         }
-  ],
-  "comments": [
-  {
-      "id": 1,
-      "username": "Nguyen Hoa Thien An",
-      "comment":
-        "Content Content Content Content Content Content Content Content Content Content Content Content"
-    },
-  {
-      "id": 2,
-      "username": "Nguyen Hoa Thien An",
-      "comment":
-        "Content Content Content Content Content Content Content Content Content Content Content Content"
-    },
-    {
-      "id": 3,
-      "username": "Nguyen Hoa Thien An",
-      "comment":
-        "Content Content Content Content Content Content Content Content Content Content Content Content"
-    }
   ]
 }
