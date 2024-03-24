@@ -1,0 +1,68 @@
+@if({value: (fund$| async)}; as fund) {
+<h3>{{ fund?.value?.name || "-" }}</h3>
+<div style="font-weight: 400; font-size: 14px">
+  {{ fund?.value?.code || "-" }}
+</div>
+}
+<br />
+<div
+  fxLayout.lg="row"
+  fxLayout.md="row"
+  fxLayout.sm="column"
+  fxLayoutGap="15px"
+>
+  <div fxLayout="column" fxFlex.lg="70" fxFlex.md="60" fxFlex.sm="100">
+    <div class="group-button">
+      <a
+        class="year-btn"
+        [class.active-btn]="optionNav === 6"
+        (click)="setMonth(6)"
+        >6 month
+      </a>
+      <a
+        class="year-btn"
+        [class.active-btn]="optionNav === 12"
+        (click)="setMonth(12)"
+        >12 month
+      </a>
+    </div>
+    <app-line-chart></app-line-chart>
+    <br />
+    <app-bar-chart></app-bar-chart>
+  </div>
+  <mat-divider style="width: 1px; background-color: #374151"></mat-divider>
+  @if({value: (fund$| async)}; as fund) {
+  <div
+    fxFlex.lg="30"
+    fxFlex.md="40"
+    fxFlex.sm="100"
+    fxLayout="column"
+    fxLayoutGap="15px"
+  >
+    <tr fxLayoutAlign="space-between">
+      <td>Current NAV (VND)</td>
+      <td>{{ (fund?.value?.currentPrice | number) || "-" }}</td>
+    </tr>
+    <mat-divider style="height: 1px; background-color: #374151"></mat-divider>
+
+    <tr fxLayoutAlign="space-between">
+      <td>Lowest NAV (VND)</td>
+      <td>{{ (fund?.value?.lowestPrice | number) || "-" }}</td>
+    </tr>
+    <mat-divider style="height: 1px; background-color: #374151"></mat-divider>
+
+    <tr fxLayoutAlign="space-between">
+      <td>Highest NAV (VND)</td>
+      <td>{{ (fund?.value?.highestPrice | number) || "-" }}</td>
+    </tr>
+    <mat-divider style="height: 1px; background-color: #374151"></mat-divider>
+    <tr fxLayoutAlign="space-between">
+      <td>Minimum subscription value</td>
+      <td>{{ (fund?.value?.minimumSubValue | number) || "-" }}</td>
+    </tr>
+    <div class='mt-20'>
+      <app-comment></app-comment>
+    </div>
+  </div>
+  }
+</div>

@@ -1,0 +1,29 @@
+@for(comment of (comments$ | async); track comment) {
+<div fxLayout="column" fxLayoutGap="15px">
+  <div fxLayout="row" fxLayoutAlign=" center" fxLayoutGap="10px">
+    <div class="avatar" fxLayoutAlign="center center">
+      <mat-icon>person</mat-icon>
+    </div>
+    <div>{{comment.username}}</div>
+  </div>
+
+  <div>{{comment.comment}}</div>
+
+  <div fxLayout="row">
+    <button (click)='like(comment.id)' class="btn" mat-button>
+      <mat-icon [class.liked]='comment.liked' class="color-white">thumb_up</mat-icon>
+      <span class="color-white"> Like</span>
+    </button>
+    <!-- <button class="btn" mat-button>
+      <mat-icon class="color-white">comment</mat-icon>
+      <span class="color-white"> Comment</span>
+    </button>
+    <button class="btn" mat-button>
+      <mat-icon class="color-white">share</mat-icon>
+      <span class="color-white">Share</span>
+    </button> -->
+  </div>
+</div>
+<mat-divider style="height: 1px; background-color: #374151; margin-bottom: 15px;"></mat-divider>
+
+}

@@ -1,0 +1,29 @@
+<mat-form-field style='width: 40vw'>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Filter">
+</mat-form-field>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8" matSort>
+  
+    <ng-container matColumnDef="code">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by code"> Code </th>
+      <td mat-cell *matCellDef="let element"> {{element.code}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="currentPrice">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by price"> Current price </th>
+      <td mat-cell *matCellDef="let element"> {{element.currentPrice | number}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="navPercent">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by profit"> Profit </th>
+      <td mat-cell *matCellDef="let element"> {{element.navPercent}}% </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="date">
+      <th mat-header-cell *matHeaderCellDef> At date </th>
+      <td mat-cell *matCellDef="let element"> {{element.date | date: 'dd/MM/YYYY'}} </td>
+    </ng-container>
+  
+    <tr mat-header-row  style="color: #ffffff;" *matHeaderRowDef="displayedColumns"></tr>
+    <tr class='clickable' [routerLink]="'/fund/' + row.id" mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>

@@ -1,0 +1,17 @@
+.avatar {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  background-color: lightgray;
+}
+.btn {
+  .color-white {
+    color: #ffffff;
+  }
+  &:hover {
+  background-color: #374151;
+  }
+}
+.liked {
+  color: #b5e0fc !important;
+}
